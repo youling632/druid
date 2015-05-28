@@ -43,6 +43,8 @@ public class OdpsLexer extends Lexer {
         map.put("OVERWRITE", Token.OVERWRITE);
         map.put("OVER", Token.OVER);
         map.put("LIMIT", Token.LIMIT);
+        map.put("TRUE", Token.TRUE);
+        map.put("FALSE", Token.FALSE);
         
         DEFAULT_ODPS_KEYWORDS = new Keywords(map);
     }
